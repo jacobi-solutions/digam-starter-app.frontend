@@ -1,0 +1,7 @@
+{
+  "name": "digam-starter-app.frontend",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
