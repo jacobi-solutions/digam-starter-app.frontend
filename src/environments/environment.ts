@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  // backendApiUrl: 'https://backend-1066484684329.us-central1.run.app',
   backendApiUrl: 'http://localhost:5165',
 
   firebase: {

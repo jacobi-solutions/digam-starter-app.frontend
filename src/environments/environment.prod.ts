@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  apiUrl: 'http://localhost:5165',
+  backendApiUrl: 'https://backend-1066484684329.us-central1.run.app',
 
   firebase: {
     apiKey: "AIzaSyA-LkUWJ6B82E6JFvhehx89XamBLBasQTA",
