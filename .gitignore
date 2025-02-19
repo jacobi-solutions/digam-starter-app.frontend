@@ -13,8 +13,6 @@
 /.angular/cache
 /.angular/cache/**
 /.angular/local
-/angular.json
-/.angular.json
 
 # Vite cache
 /.vite
