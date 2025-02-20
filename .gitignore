@@ -8,6 +8,7 @@
 /dist
 /build
 /www
+/public
 
 # Angular CLI
 /.angular/cache
