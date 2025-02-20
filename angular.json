@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "app": {
+    "test-best-4": {
       "projectType": "application",
       "schematics": {
         "@ionic/angular-toolkit:page": {
@@ -18,7 +18,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "public/browser",
+            "outputPath": "dist/test-best-4",
             "index": "src/index.html",
             "polyfills": ["src/polyfills.ts"],
             "tsConfig": "tsconfig.app.json",
@@ -72,13 +72,13 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "app:build:production"
+              "buildTarget": "test-best-4:build:production"
             },
             "development": {
-              "buildTarget": "app:build:development"
+              "buildTarget": "test-best-4:build:development"
             },
             "ci": {
-              "progress": false
+              "watch": false
             }
           },
           "defaultConfiguration": "development"

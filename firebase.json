@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "public/browser",
+    "public": "dist/test-best-4/browser",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
     "rewrites": [{ "source": "**", "destination": "/index.html" }]
   }
